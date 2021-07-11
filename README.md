@@ -2,19 +2,23 @@
 
 IPTV_multicast monitoring system.
 
-1 Direct access   to multicast traffic 
+1 Direct access to multicast traffic 
 
 2 LAMP + perl + phpmyadmin + ffmpeg etc..
 
-3 install   files and folders  to  /var/www/html directory
+2.1 apt-get -y -f install libio-socket-multicast-perl
 
-4 import DB  to  mysql 
+3 install files and folders to  /var/www/html directory
 
-5 edit  db.php
+4 import DB to mysql 
 
-6 edit  config.pl
+5 edit db.php
+
+6 edit config.pl
 
 7 api bandwidth.pl  channel.php  db.php  index.php  info.php  mysql.pl  nagios.pl  refresh.php  screen  screen.pl
+
+
 
 ```shell
 drwxr-xr-x 5 root root 4096 окт.  22 10:29 .
