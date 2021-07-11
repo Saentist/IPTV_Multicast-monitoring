@@ -6,7 +6,7 @@ IPTV_multicast monitoring system.
 
 2 LAMP + perl + phpmyadmin + ffmpeg etc..
 
-2.1 apt-get -y -f install libio-socket-multicast-perl
+2.1 apt-get -y -f install libio-socket-multicast-perl libdbi-perl
 
 3 install files and folders to  /var/www/html directory
 
